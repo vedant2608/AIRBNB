@@ -33,7 +33,7 @@ models:
   airbnb:
     # Config indicated by + and applies to all files under models/example/
     +materialized: view
-  dims:
-    +materialized: table
-  src:
-    +materialized: ephemeral
+    dims:
+      +materialized: table
+    src:
+      +materialized: ephemeral
